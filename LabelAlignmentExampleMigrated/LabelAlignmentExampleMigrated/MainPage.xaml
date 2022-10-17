@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LabelAlignmentExampleMigrated.MainPage">
     <ContentPage.Content>
-        <Label Text="Hello" HorizontalOptions="Fill" HorizontalTextAlignment="Center" BackgroundColor="Beige" VerticalOptions="Start"/>
+        <Grid RowDefinitions="*">
+            <Label Text="Hello" HorizontalOptions="Fill" HorizontalTextAlignment="Center" BackgroundColor="Beige" VerticalOptions="Start"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
